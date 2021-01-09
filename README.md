@@ -1,4 +1,4 @@
 # JS-Desktop
 
 ### Layout:
-<img src="C:\Users\AVAK\Documents\ShareX\Screenshots\2021-01">
+<img src="assets/img1.png">
