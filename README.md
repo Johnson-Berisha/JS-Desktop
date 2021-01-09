@@ -1,4 +1,4 @@
 # JS-Desktop
 
 ### Layout:
-<img src="assets/img1.png">
+<img src="https://github.com/Johnson-Berisha/JS-Desktop/blob/main/images/img1.png?raw=true">
