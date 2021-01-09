@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Desktop</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="startTime();">
+    <div class="HelpBar">
+        <div class="startSec">
+            <div class="start" onclick="start();"></div>
+            <div class="openedApp"></div>
+        </div>
+        <div class="timeSec">
+            <div class="time" id="txt"></div>
+        </div>
+    </div>
+
+    <div class="startFun">
+        <span class="openedApp bigTxt"></span>
+        <div class="links">
+            <span class="link">Example</span><br>
+            <span class="link">Example</span><br>
+            <span class="link">Example</span><br>
+            <br>
+            <span class="link">Example</span><br>
+            <span class="link">Example</span><br>
+            <span class="link">Example</span><br>
+            <br>
+            <span class="link">Example</span><br>
+            <span class="link">Example</span>
+        </div>
+    </div>
+
+<form action="" class="myForm">
+    <div class="setup">
+        <div class="appBar__setup">
+            <div class="appName__setup">Setup</div>
+        </div>
+        <div class="appContent__setup">
+    <input type="text" maxlength="20" minlength="2"  placeholder="Name..." class="nameInput">
+    <p class="helpForm"></p>
+</div>
+</div>
+</form>
+
+
+
+
+<!-- <span class="fun">Open "TextPad"!</span>
+
+<form action="" class="TextPad">
+    <div class="txtPad" id="txtPad">
+        <div class="appBar__txtPad">
+            <div class="appName__txtPad">TextPad</div>
+            <div class="closeBtn">X</div>
+        </div>
+        <textarea placeholder="Write Here!" class="appContent__txtPad">
+        </textarea>
+</div>
+</form> -->
+
+
+    <script src="JS/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.start {
+    width: 20px;
+    height: 20px;
+    border: black 1px solid;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 250ms all;
+}
+
+.start:active {
+    background: black;
+}
+
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    height: 100vh;
+}
+
+.HelpBar {
+    height: 3vh;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: #333 0 1px 10px;
+}
+
+.startSec {
+    display: flex;
+}
+
+.openedApp {
+    padding-left: 2rem;
+    text-decoration: overline;
+    font-weight: 200;
+}
+
+.time {
+    font-weight: 200;
+}
+
+.close {
+    display: none;
+}
+
+.myForm {
+     margin: 5rem;
+}
+
+.myForm input {
+    border: none;
+     padding: 15px;
+     border-bottom: #333 3px solid;
+}
+
+.myForm input::placeholder {
+    color: #333;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+/* nice */
+
+.setup {
+    height: 50vh;
+    width: 50vh;
+    border: #333333 3px solid;
+}
+
+.appBar__setup {
+    background: #333333;
+    color: white;
+    padding: 12px;
+}
+
+.appContent__setup {
+    position: relative;
+    top: 30%;
+    left: 25%;
+}
+
+.txtPad {
+    border: #333333 3px solid;
+    width: 50vh;
+    margin: 5rem;
+}
+
+.appBar__txtPad {
+    background: #333333;
+    color: white;
+    padding: 12px;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appContent__txtPad {
+    height: 43vh;
+    width: 49.5vh;
+    border: none;
+}
+
+
+.closeBtn {
+    cursor: pointer;
+}
+
+/* .txtPad {
+    display: none;
+} */
+
+.open {
+    display: block;
+}
+
+.close {
+    display: none;
+}
+
+.startFun {
+    display: none;
+    background: #333;
+    color: white;
+    width: 25vh;
+    height: 43vh;
+    padding: 21px;
+}
+
+.bigTxt {
+    color: white;
+}
